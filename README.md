@@ -1,7 +1,11 @@
 [![Build Status](https://dev.azure.com/odluser238723/HoangCV1-DevOps/_apis/build/status%2Fhoangsc.UdacityDevOps?branchName=main)](https://dev.azure.com/odluser238723/HoangCV1-DevOps/_build/latest?definitionId=2&branchName=main)
 # Overview
 
-<TODO: complete this with an overview of your project>
+In this project, we are going with:
+- Create github repository and clone to Azure Cloud Shell with SSH Key
+- Coding, config Python virtual environment, script, test file to run in Github Action
+- Deploy code to Azure webapp
+- Buid CI/CD pipeline in Azure DevOps
 
 ## Project Plan
 <TODO: Project Plan
