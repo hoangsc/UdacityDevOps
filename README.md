@@ -2,10 +2,10 @@
 # Overview
 
 In this project, we are going with:
-- Create github repository and clone to Azure Cloud Shell with SSH Key
-- Coding, config Python virtual environment, script, test file to run in Github Action
-- Deploy code to Azure webapp
-- Buid CI/CD pipeline in Azure DevOps
+1. Create GitHub repository and clone it to Azure Cloud Shell with SSH Key
+2. Coding, config Python virtual environment, script, test file to run in Github Action
+3. Deploy code to Azure Webapp
+4. Build CI/CD pipeline in Azure DevOps
 
 ## Project Plan
 <TODO: Project Plan
@@ -14,11 +14,16 @@ In this project, we are going with:
 * A link to a spreadsheet that includes the original and final project plan>
 
 ## Instructions
-
+Main flow in this project
 ![image](https://github.com/hoangsc/UdacityDevOps/assets/72764803/54f70119-08ad-45bc-991a-cd5a7018093d)
 
 
 <TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
+1. Create GitHub repository and clone it to Azure Cloud Shell with SSH Key
+   1.1.
+   Open cloud shell and run command: 'ssh-keygen -t rsa'
+   ![01_generate_ssh_key](https://github.com/hoangsc/UdacityDevOps/assets/72764803/0e891b91-eba1-40bc-8fc5-f49cb79be8bf)
+
 
 * Project running on Azure App Service
 
