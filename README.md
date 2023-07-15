@@ -55,8 +55,8 @@ Main flow in this project
 **3. Deploy code to Azure Webapp**
    3.1. Test your local before deploy: 'make all'
         ![05_make_all_result_updated_flask_starter_code](https://github.com/hoangsc/UdacityDevOps/assets/72764803/94ed7a36-f85c-46ea-a88d-82fc9f9b81f8)
-   3.1. Create and deploy code to Azure webapp: 'az webapp up -n <your-webapp> --resource-group <your-resource-group>--sku FREE'
-   3.2. Test deployed app, update your webapp url in make_predict_azure_app.sh and run
+   3.2. Deploy code to Azure webapp: 'az webapp up -n <your-webapp> --resource-group <your-resource-group>--sku FREE'
+   3.3. Test deployed app, update your webapp url in make_predict_azure_app.sh and run
    ![06_make_prediction_azure_command_result](https://github.com/hoangsc/UdacityDevOps/assets/72764803/9b27707c-88fc-426d-a6b7-fdde5adec3ce)
 
 **4. Build CI/CD pipeline in Azure DevOps**
