@@ -15,8 +15,8 @@ In this project, we are going with:
 
 ## Instructions
 
-<TODO:  
-* Architectural Diagram (Shows how key parts of the system work)>
+![image](https://github.com/hoangsc/UdacityDevOps/assets/72764803/54f70119-08ad-45bc-991a-cd5a7018093d)
+
 
 <TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
 
