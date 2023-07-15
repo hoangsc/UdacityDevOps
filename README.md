@@ -98,6 +98,6 @@ Main flow in this project
 - Need to create an alert in future
 - Create features, and need PR to merge code into master branch 
 ## Demo 
-(https://youtu.be/DkDhjH_KZfY)https://youtu.be/DkDhjH_KZfY
+https://youtu.be/DkDhjH_KZfY
 
 
