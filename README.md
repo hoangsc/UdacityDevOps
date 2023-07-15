@@ -1,3 +1,4 @@
+[![Build Status](https://dev.azure.com/odluser238723/HoangCV1-DevOps/_apis/build/status%2Fhoangsc.UdacityDevOps?branchName=main)](https://dev.azure.com/odluser238723/HoangCV1-DevOps/_build/latest?definitionId=2&branchName=main)
 # Overview
 
 <TODO: complete this with an overview of your project>
