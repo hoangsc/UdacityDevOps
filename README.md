@@ -59,6 +59,7 @@ Main flow in this project
    
    3.1. Test your local before deploying: 'make all'
         ![05_make_all_result_updated_flask_starter_code](https://github.com/hoangsc/UdacityDevOps/assets/72764803/94ed7a36-f85c-46ea-a88d-82fc9f9b81f8)
+   
    3.2. Run commands.sh to create and deploy code to Azure webapp: 
    ![image](https://github.com/hoangsc/UdacityDevOps/assets/72764803/2fc4280c-05e1-4be9-a6ab-62b8ba20a96d)
 
