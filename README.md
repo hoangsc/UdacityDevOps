@@ -35,7 +35,7 @@ Main flow in this project
    - Create Python Virtual Environment with 2 command below:
         'python3 -m venv ~/.myrepo'
         'source ~/.myrepo/bin/activate'
-   ![image](https://github.com/hoangsc/UdacityDevOps/assets/72764803/e54dc834-86eb-43e9-b97c-b42a206bde02)
+      ![image](https://github.com/hoangsc/UdacityDevOps/assets/72764803/e54dc834-86eb-43e9-b97c-b42a206bde02)
    
    2.2. Local test, run: 'make all', refer to result below:
      ![04_make_all_result](https://github.com/hoangsc/UdacityDevOps/assets/72764803/ae226f06-d872-4f13-9b1a-cf5b86334486)
