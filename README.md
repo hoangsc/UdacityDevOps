@@ -51,9 +51,12 @@ Main flow in this project
    2.5. Open logfile in https://<app-name>.scm.azurewebsites.net/api/logs/docker or stream them: 'az webapp log tail'
    ![07_get_lock_scm](https://github.com/hoangsc/UdacityDevOps/assets/72764803/0af83c11-9125-4b5c-b454-853b92dc3edd)
    ![08_az_webapp_log_tail](https://github.com/hoangsc/UdacityDevOps/assets/72764803/3808c59b-8898-4822-b646-f9446d246bd5)
+   
    2.6. Load test an application using Locust
    ![09_locust_report](https://github.com/hoangsc/UdacityDevOps/assets/72764803/bbc7b8fc-225d-4c50-bf13-4a42c1f5d315)
+
 **3. Deploy code to Azure Webapp**
+   
    3.1. Test your local before deploying: 'make all'
         ![05_make_all_result_updated_flask_starter_code](https://github.com/hoangsc/UdacityDevOps/assets/72764803/94ed7a36-f85c-46ea-a88d-82fc9f9b81f8)
    3.2. Run commands.sh to create and deploy code to Azure webapp: 
