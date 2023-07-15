@@ -39,17 +39,30 @@ Main flow in this project
    
    2.2. Local test, run: 'make all', refer to result below:
      ![04_make_all_result](https://github.com/hoangsc/UdacityDevOps/assets/72764803/ae226f06-d872-4f13-9b1a-cf5b86334486)
-     ![05_make_all_result_updated_flask_starter_code](https://github.com/hoangsc/UdacityDevOps/assets/72764803/94ed7a36-f85c-46ea-a88d-82fc9f9b81f8)
 
    2.3. Enable GitHub action and replace YML code 
+   ![image](https://github.com/hoangsc/UdacityDevOps/assets/72764803/90d11888-93bc-4945-aa70-70f73096800d)
+
    2.4. Making predictions
-   2.4.1. You have to open a separate tab or terminal window and call: ./make_prediction.sh and ./make_predict_azure_app.sh
-   ![06_make_prediction_azure_command_result](https://github.com/hoangsc/UdacityDevOps/assets/72764803/886289d0-de42-4df6-b25d-36b11eb51d94)
-   ![06_make_prediction_command_result](https://github.com/hoangsc/UdacityDevOps/assets/72764803/bfe5dd69-b7be-4a56-b4b2-95260bd0c7c5)
-   
+   2.4.1. You have to open a separate tab or terminal window and call: ./make_prediction.sh 
+   ![06_make_prediction_command_result](https://github.com/hoangsc/UdacityDevOps/assets/72764803/4c236842-7ea2-4814-b6d9-435469d3a46e)
 
+   2.5. Open logfile in https://<app-name>.scm.azurewebsites.net/api/logs/docker or stream them: 'az webapp log tail'
+   ![07_get_lock_scm](https://github.com/hoangsc/UdacityDevOps/assets/72764803/0af83c11-9125-4b5c-b454-853b92dc3edd)
+   ![08_az_webapp_log_tail](https://github.com/hoangsc/UdacityDevOps/assets/72764803/3808c59b-8898-4822-b646-f9446d246bd5)
+   2.6. Load test an application using Locust
+   ![09_locust_report](https://github.com/hoangsc/UdacityDevOps/assets/72764803/bbc7b8fc-225d-4c50-bf13-4a42c1f5d315)
+**3. Deploy code to Azure Webapp**
+   3.1. Test your local before deploy: 'make all'
+        ![05_make_all_result_updated_flask_starter_code](https://github.com/hoangsc/UdacityDevOps/assets/72764803/94ed7a36-f85c-46ea-a88d-82fc9f9b81f8)
+   3.1. Create and deploy code to Azure webapp: 'az webapp up -n <your-webapp> --resource-group <your-resource-group>--sku FREE'
+   3.2. Test deployed app, update your webapp url in make_predict_azure_app.sh and run
+   ![06_make_prediction_azure_command_result](https://github.com/hoangsc/UdacityDevOps/assets/72764803/9b27707c-88fc-426d-a6b7-fdde5adec3ce)
 
-   2.4. Create and deploy code to Azure webapp: 'az webapp up -n <your-webapp> --resource-group <your-resource-group>--sku FREE'
+**4. Build CI/CD pipeline in Azure DevOps**
+   4.1 Create public Azure DevOps project
+   ![image](https://github.com/hoangsc/UdacityDevOps/assets/72764803/05f78718-f0c4-4f1c-9b9b-c3eda78334d4)
+
    
    
      
