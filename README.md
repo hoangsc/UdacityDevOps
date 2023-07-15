@@ -19,14 +19,15 @@ Main flow in this project
 
 
 <TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
+
 **1. Create GitHub repository and clone it to Azure Cloud Shell with SSH Key**
    1.1. Open cloud shell and run command: 'ssh-keygen -t rsa'
    ![01_generate_ssh_key](https://github.com/hoangsc/UdacityDevOps/assets/72764803/0e891b91-eba1-40bc-8fc5-f49cb79be8bf)
    1.2. Get generated SSH key: 'cat /home/odl_user/.ssh/id_rsa.pub'
    1.3. Add SSH key into Github
-   ![02_add_ssh_key](https://github.com/hoangsc/UdacityDevOps/assets/72764803/b2f45459-e135-4fea-9732-fa939d7fc6ef)
+      ![02_add_ssh_key](https://github.com/hoangsc/UdacityDevOps/assets/72764803/b2f45459-e135-4fea-9732-fa939d7fc6ef)
    1.4. Clone GitHub project: git clone <linkofYourRepository>
-   ![03_clone_repo](https://github.com/hoangsc/UdacityDevOps/assets/72764803/858f5d7c-ba17-4a23-b12e-ff329b8bf3c5)
+      ![03_clone_repo](https://github.com/hoangsc/UdacityDevOps/assets/72764803/858f5d7c-ba17-4a23-b12e-ff329b8bf3c5)
 **2. Coding, config Python virtual environment, script, test file to run in Github Action**
    2.1. Create Project Scaffolding:
    - Makefile
