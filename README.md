@@ -1,4 +1,4 @@
-[![Build Status](https://dev.azure.com/odluser238723/HoangCV1-DevOps/_apis/build/status%2Fhoangsc.UdacityDevOps?branchName=main)](https://dev.azure.com/odluser238723/HoangCV1-DevOps/_build/latest?definitionId=2&branchName=main)
+[![Python application test with Github Actions](https://github.com/hoangsc/UdacityDevOps/actions/workflows/pythonapp.yml/badge.svg)](https://github.com/hoangsc/UdacityDevOps/actions/workflows/pythonapp.yml)
 # Overview
 
 In this project, we are going with:
@@ -51,12 +51,18 @@ Main flow in this project
    2.5. Open logfile in https://<app-name>.scm.azurewebsites.net/api/logs/docker or stream them: 'az webapp log tail'
    ![07_get_lock_scm](https://github.com/hoangsc/UdacityDevOps/assets/72764803/0af83c11-9125-4b5c-b454-853b92dc3edd)
    ![08_az_webapp_log_tail](https://github.com/hoangsc/UdacityDevOps/assets/72764803/3808c59b-8898-4822-b646-f9446d246bd5)
+   
    2.6. Load test an application using Locust
    ![09_locust_report](https://github.com/hoangsc/UdacityDevOps/assets/72764803/bbc7b8fc-225d-4c50-bf13-4a42c1f5d315)
+
 **3. Deploy code to Azure Webapp**
-   3.1. Test your local beforedeployingy: 'make all'
+   
+   3.1. Test your local before deploying: 'make all'
         ![05_make_all_result_updated_flask_starter_code](https://github.com/hoangsc/UdacityDevOps/assets/72764803/94ed7a36-f85c-46ea-a88d-82fc9f9b81f8)
-   3.2. Deploy code to Azure webapp: 'az webapp up -n <your-webapp> --resource-group <your-resource-group>--sku FREE'
+   
+   3.2. Run commands.sh to create and deploy code to Azure webapp: 
+   ![image](https://github.com/hoangsc/UdacityDevOps/assets/72764803/2fc4280c-05e1-4be9-a6ab-62b8ba20a96d)
+
    3.3. Test deployed app, update your webapp url in make_predict_azure_app.sh and run
    ![06_make_prediction_azure_command_result](https://github.com/hoangsc/UdacityDevOps/assets/72764803/9b27707c-88fc-426d-a6b7-fdde5adec3ce)
 
