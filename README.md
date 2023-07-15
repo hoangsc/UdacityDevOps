@@ -54,9 +54,11 @@ Main flow in this project
    2.6. Load test an application using Locust
    ![09_locust_report](https://github.com/hoangsc/UdacityDevOps/assets/72764803/bbc7b8fc-225d-4c50-bf13-4a42c1f5d315)
 **3. Deploy code to Azure Webapp**
-   3.1. Test your local beforedeployingy: 'make all'
+   3.1. Test your local before deploying: 'make all'
         ![05_make_all_result_updated_flask_starter_code](https://github.com/hoangsc/UdacityDevOps/assets/72764803/94ed7a36-f85c-46ea-a88d-82fc9f9b81f8)
-   3.2. Deploy code to Azure webapp: 'az webapp up -n <your-webapp> --resource-group <your-resource-group>--sku FREE'
+   3.2. Run commands.sh to create and deploy code to Azure webapp: 
+   ![image](https://github.com/hoangsc/UdacityDevOps/assets/72764803/2fc4280c-05e1-4be9-a6ab-62b8ba20a96d)
+
    3.3. Test deployed app, update your webapp url in make_predict_azure_app.sh and run
    ![06_make_prediction_azure_command_result](https://github.com/hoangsc/UdacityDevOps/assets/72764803/9b27707c-88fc-426d-a6b7-fdde5adec3ce)
 
